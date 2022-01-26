@@ -1,0 +1,5 @@
+[winUpdater]
+	recentlySeenVersion = 2.33.1.windows.1
+[user]
+	name = Vishroy Hangar
+	email = vishroy.seenarain@hangarww.com

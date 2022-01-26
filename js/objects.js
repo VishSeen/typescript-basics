@@ -1,0 +1,15 @@
+"use strict";
+// JAVASCRIPT object
+let person = {
+    name: 'Vishroy',
+    age: 24,
+    alive: true,
+    functions: ['work', 'eat']
+};
+// TYPESCRIPT object 
+let animals = {
+    name: 'dog',
+    age: 5,
+    alive: true,
+    functions: ['sleep', 'eat']
+};
