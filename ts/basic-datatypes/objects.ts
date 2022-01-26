@@ -1,3 +1,9 @@
+/**
+ * Typescript object are basically Javascript object
+ * They should first define the type that the object will hold.
+ * They can then be initiated to hold the values 
+ */
+
 
 // JAVASCRIPT object
 let person = {

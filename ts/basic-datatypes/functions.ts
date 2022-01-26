@@ -62,8 +62,28 @@ funcAsType2 = precisingReturnTypeFunc;
 
 
 /**
- * CALLBACK FUNCTIONS
+ * DEFAULT FUNCTIONS
+ * You can add a default parameter to be used in a function which will be used
+ * if the user enters only one value.
+ * The default parameter can only be applied to the second paramater and not the first.
+ * So the first should always be the one value that the user MUST INPUT
  */
 
-// Simple Callback Function
+// Simple default function
+const addString = (name: string, surname: string = "No surname..") => {
+  return surname + " " + name;
+}
+
+
+console.log('Before using 2 parameters: ');
+
+console.log(addString("Vishroy"));
+
+console.log(" ");
+
+console.log("After using 2 params: ");
+
+console.log(addString("Seenarain", "Vishroy"));
+
+
 
